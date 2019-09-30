@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TableViewPO' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TableViewPO
+  pod 'AFNetworking'
+  pod 'MJRefresh'
+  pod 'MJExtension'
+  pod 'Masonry'
+  pod 'SDWebImage'
+  target 'TableViewPOTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TableViewPOUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
